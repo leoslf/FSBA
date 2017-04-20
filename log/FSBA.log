@@ -1,0 +1,1389 @@
+2017-04-17 19:04:26[Info](FSBA.Macro:112:logInfo): DB closed successful
+2017-04-17 22:39:56 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 22:40:00 [Info](FSBA.Window:39:<init>): Login as: Leo Sin
+2017-04-17 22:40:06 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 22:55:26 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 22:55:30 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 22:55:39 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 22:56:28 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 22:56:31 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): id
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): username
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): password
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): emailAddr
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): firstName
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): lastName
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): role
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): userStatus
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:47:getHeader): created_date
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): admin
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): admin
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): leo69219326@gmail.com
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): System Administrator
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 2017-04-04 18:50:05
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 2
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): leosin
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): leosin
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): leo69219326@gmail.com
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): Leo
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): Sin
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 22:56:31 [Debug](FSBA.TableFromDB:73:getNextRow): 2017-04-04 18:50:05
+2017-04-17 22:56:41 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:04:38 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:04:44 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): id
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): username
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): password
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): emailAddr
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): firstName
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): lastName
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): role
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): userStatus
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:47:getHeader): created_date
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): admin
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): admin
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): leo69219326@gmail.com
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): System Administrator
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 2017-04-04 18:50:05
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 2
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): leosin
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): leosin
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): leo69219326@gmail.com
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): Leo
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): Sin
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 1
+2017-04-17 23:04:44 [Debug](FSBA.TableFromDB:73:getNextRow): 2017-04-04 18:50:05
+2017-04-17 23:04:54 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:22:37 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:22:40 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): id
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): username
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): password
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): emailAddr
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): firstName
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): lastName
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): role
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): userStatus
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:50:getHeader): created_date
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 1
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): admin
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): admin
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): leo69219326@gmail.com
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): System Administrator
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 1
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 1
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 2017-04-04 18:50:05
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 2
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): leosin
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): leosin
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): leo69219326@gmail.com
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): Leo
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): Sin
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 1
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 1
+2017-04-17 23:22:40 [Debug](FSBA.DataGrid:76:getNextRow): 2017-04-04 18:50:05
+2017-04-17 23:23:01 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:24:36 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:24:41 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): username
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): password
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): emailAddr
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): firstName
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): lastName
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): role
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): userStatus
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:49:getHeader): created_date
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): admin
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): admin
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): leo69219326@gmail.com
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): System Administrator
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 2017-04-04 18:50:05
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): leosin
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): leosin
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): leo69219326@gmail.com
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): Leo
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): Sin
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:24:41 [Debug](FSBA.DataGrid:75:getNextRow): 2017-04-04 18:50:05
+2017-04-17 23:24:48 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:24:55 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:25:00 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:49:getHeader): customer_id
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:49:getHeader): deliveryLocation_id
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:49:getHeader): timslot_id
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:49:getHeader): lineItems_id
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:49:getHeader): payment_id
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:25:00 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:25:29 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:26:54 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:26:58 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:49:getHeader): customer_id
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:49:getHeader): deliveryLocation_id
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:49:getHeader): timslot_id
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:49:getHeader): lineItems_id
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:49:getHeader): payment_id
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:26:58 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:27:05 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:31:45 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:31:49 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:49:getHeader): customer_id
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:49:getHeader): deliveryLocation_id
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:49:getHeader): timslot_id
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:49:getHeader): lineItems_id
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:49:getHeader): payment_id
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:31:49 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:34:29 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:34:32 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:49:getHeader): customer_id
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:49:getHeader): deliveryLocation_id
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:49:getHeader): timslot_id
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:49:getHeader): lineItems_id
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:49:getHeader): payment_id
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:34:32 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:37:54 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:37:55 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:40:04 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:40:10 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:40:10 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "FROM": syntax error)
+2017-04-17 23:40:10 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-17 23:40:10 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-17 23:40:10 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-17 23:40:10 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-17 23:40:10 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-17 23:40:10 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-17 23:40:10 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-17 23:40:10 	Class: FSBA.DBC Method : query line : 39
+2017-04-17 23:40:10 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-17 23:40:10 	Class: FSBA.Window Method : <init> line : 45
+2017-04-17 23:40:10 	Class: FSBA.Main Method : main line : 23
+2017-04-17 23:40:11 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:40:20 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:40:25 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:40:25 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:40:25 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:40:34 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:53:33 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:53:38 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:53:38 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "s": syntax error)
+2017-04-17 23:53:38 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-17 23:53:38 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-17 23:53:38 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-17 23:53:38 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-17 23:53:38 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-17 23:53:38 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-17 23:53:38 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-17 23:53:38 	Class: FSBA.DBC Method : query line : 39
+2017-04-17 23:53:38 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-17 23:53:38 	Class: FSBA.Window Method : <init> line : 45
+2017-04-17 23:53:38 	Class: FSBA.Main Method : main line : 23
+2017-04-17 23:53:40 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:54:01 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:54:05 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:54:05 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "s": syntax error)
+2017-04-17 23:54:05 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-17 23:54:05 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-17 23:54:05 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-17 23:54:05 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-17 23:54:05 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-17 23:54:05 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-17 23:54:05 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-17 23:54:05 	Class: FSBA.DBC Method : query line : 39
+2017-04-17 23:54:05 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-17 23:54:05 	Class: FSBA.Window Method : <init> line : 45
+2017-04-17 23:54:05 	Class: FSBA.Main Method : main line : 23
+2017-04-17 23:54:07 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:55:20 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:55:25 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:55:25 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (no such column: sales.id)
+2017-04-17 23:55:25 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-17 23:55:25 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-17 23:55:25 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-17 23:55:25 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-17 23:55:25 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-17 23:55:25 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-17 23:55:25 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-17 23:55:25 	Class: FSBA.DBC Method : query line : 39
+2017-04-17 23:55:25 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-17 23:55:25 	Class: FSBA.Window Method : <init> line : 45
+2017-04-17 23:55:25 	Class: FSBA.Main Method : main line : 23
+2017-04-17 23:55:28 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:55:46 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:55:51 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-17 23:55:53 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:56:05 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:56:05 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:56:08 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:56:13 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:56:13 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (no such column: sales.id)
+2017-04-17 23:56:13 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-17 23:56:13 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-17 23:56:13 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-17 23:56:13 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-17 23:56:13 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-17 23:56:13 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-17 23:56:13 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-17 23:56:13 	Class: FSBA.DBC Method : query line : 39
+2017-04-17 23:56:13 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-17 23:56:13 	Class: FSBA.Window Method : <init> line : 45
+2017-04-17 23:56:13 	Class: FSBA.Main Method : main line : 23
+2017-04-17 23:56:20 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:57:11 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:57:16 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:57:16 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:57:16 [Debug](FSBA.DataGrid:49:getHeader): Title
+2017-04-17 23:57:16 [Debug](FSBA.DataGrid:49:getHeader): LastName
+2017-04-17 23:57:16 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-17 23:57:16 [Debug](FSBA.DataGrid:75:getNextRow): Mr
+2017-04-17 23:57:16 [Debug](FSBA.DataGrid:75:getNextRow): Sin
+2017-04-17 23:57:27 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:57:56 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:58:04 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:58:04 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (no such column: s.timeslot_id)
+2017-04-17 23:58:04 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-17 23:58:04 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-17 23:58:04 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-17 23:58:04 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-17 23:58:04 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-17 23:58:04 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-17 23:58:04 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-17 23:58:04 	Class: FSBA.DBC Method : query line : 39
+2017-04-17 23:58:04 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-17 23:58:04 	Class: FSBA.Window Method : <init> line : 45
+2017-04-17 23:58:04 	Class: FSBA.Main Method : main line : 23
+2017-04-17 23:58:08 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:58:34 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:58:38 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:58:38 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:58:38 [Debug](FSBA.DataGrid:49:getHeader): Title
+2017-04-17 23:58:38 [Debug](FSBA.DataGrid:49:getHeader): LastName
+2017-04-17 23:58:38 [Debug](FSBA.DataGrid:49:getHeader): location
+2017-04-17 23:58:38 [Debug](FSBA.DataGrid:49:getHeader): timeslot
+2017-04-17 23:58:48 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-17 23:59:42 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-17 23:59:46 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-17 23:59:46 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-17 23:59:46 [Debug](FSBA.DataGrid:49:getHeader): Title
+2017-04-17 23:59:46 [Debug](FSBA.DataGrid:49:getHeader): LastName
+2017-04-17 23:59:46 [Debug](FSBA.DataGrid:49:getHeader): location
+2017-04-17 23:59:46 [Debug](FSBA.DataGrid:49:getHeader): timeslot
+2017-04-17 23:59:59 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 00:04:38 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 00:04:46 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:49:getHeader): Title
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:49:getHeader): LastName
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:49:getHeader): location
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:49:getHeader): timeslot
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:75:getNextRow): Mr
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:75:getNextRow): Sin
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 00:04:46 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 00:09:58 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 00:10:03 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 00:10:03 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (no such function: CONCAT_WS)
+2017-04-18 00:10:03 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 00:10:03 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 00:10:03 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 00:10:03 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 00:10:03 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 00:10:03 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 00:10:03 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 00:10:03 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 00:10:03 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 00:10:03 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 00:10:03 	Class: FSBA.Main Method : main line : 23
+2017-04-18 00:10:07 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 00:11:41 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 00:11:45 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 00:11:45 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (no such function: CONCAT)
+2017-04-18 00:11:45 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 00:11:45 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 00:11:45 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 00:11:45 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 00:11:45 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 00:11:45 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 00:11:45 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 00:11:45 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 00:11:45 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 00:11:45 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 00:11:45 	Class: FSBA.Main Method : main line : 23
+2017-04-18 00:11:53 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 00:13:14 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 00:13:18 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 00:13:22 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 00:13:25 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 00:13:28 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 00:13:28 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 00:13:28 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 00:13:28 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 00:13:28 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 00:13:28 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 00:13:28 [Debug](FSBA.DataGrid:75:getNextRow): Mr Sin
+2017-04-18 00:13:28 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 00:13:28 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 00:14:17 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 00:17:53 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 00:17:57 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 00:17:57 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 00:17:57 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 00:17:57 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 00:17:57 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 00:17:57 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 00:17:57 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 00:17:57 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 00:17:57 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 00:47:13 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 00:47:17 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 00:47:17 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 00:47:17 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 00:47:17 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 00:47:17 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 00:47:17 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 00:47:17 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 00:47:17 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 00:47:17 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 01:12:33 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 01:12:36 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 01:12:39 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 01:12:39 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 01:12:39 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 01:12:39 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 01:12:39 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 01:12:39 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 01:12:39 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 01:12:39 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 01:12:39 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 01:13:02 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 01:13:30 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 01:13:34 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 01:13:34 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 01:17:25 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 01:22:17 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 01:22:29 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 01:22:29 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 01:22:45 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 01:22:54 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 01:23:36 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 01:23:46 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 01:23:46 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 01:23:55 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 01:24:26 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 01:24:30 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 01:24:30 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 01:24:55 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 01:25:57 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 01:26:01 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 01:26:01 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 01:26:16 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 01:28:17 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 01:28:21 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 01:28:21 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 01:59:50 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:05:18 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:05:22 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:05:22 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "d": syntax error)
+2017-04-18 02:05:22 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:05:22 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:05:22 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:05:22 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:05:22 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:05:22 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:05:22 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:05:22 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:05:22 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:05:22 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:05:22 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:05:25 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:06:06 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:06:09 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:06:09 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:06:09 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 02:06:09 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:06:09 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:06:09 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:06:09 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:06:16 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:07:26 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:07:30 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:07:30 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:09:50 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:09:54 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:49:getHeader): Customer id
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:09:54 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:10:04 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:10:12 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:10:26 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:10:30 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:49:getHeader): Customer id
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:10:30 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:14:13 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:14:21 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:49:getHeader): Customer id
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:14:21 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:14:34 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:16:51 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:16:59 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:16:59 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "CASE": syntax error)
+2017-04-18 02:16:59 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:16:59 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:16:59 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:16:59 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:16:59 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:16:59 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:16:59 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:16:59 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:16:59 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:16:59 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:16:59 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:17:10 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:17:14 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:18:07 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:18:11 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:18:11 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "CASE": syntax error)
+2017-04-18 02:18:11 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:18:11 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:18:11 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:18:11 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:18:11 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:18:11 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:18:11 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:18:11 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:18:11 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:18:11 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:18:11 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:18:13 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:18:30 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:18:37 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:18:38 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+2017-04-18 02:18:38 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:18:38 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:18:38 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:18:38 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:18:38 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:18:38 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:18:38 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:18:38 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:18:38 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:18:38 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:18:38 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:18:39 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:20:04 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:20:07 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:20:07 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+2017-04-18 02:20:07 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:20:07 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:20:07 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:20:07 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:20:07 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:20:07 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:20:07 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:20:07 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:20:07 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:20:07 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:20:07 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:20:10 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:20:22 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:21:38 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-18 02:21:40 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:23:24 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:23:29 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:23:29 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "ELSE": syntax error)
+2017-04-18 02:23:29 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:23:29 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:23:29 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:23:29 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:23:29 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:23:29 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:23:29 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:23:29 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:23:29 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:23:29 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:23:29 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:23:31 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:23:39 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:23:43 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:23:43 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "ELSE": syntax error)
+2017-04-18 02:23:43 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:23:43 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:23:43 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:23:43 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:23:43 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:23:43 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:23:43 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:23:43 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:23:43 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:23:43 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:23:43 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:23:45 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:24:24 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:24:29 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:24:29 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "ELSE": syntax error)
+2017-04-18 02:24:29 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:24:29 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:24:29 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:24:29 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:24:29 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:24:29 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:24:29 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:24:29 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:24:29 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:24:29 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:24:29 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:24:32 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:25:05 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:25:09 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:49:getHeader): Customer id
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:25:09 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:25:37 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:25:41 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:25:41 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:26:02 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:26:05 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:26:06 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:26:12 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:26:14 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:26:18 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:26:39 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:26:45 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:26:46 [ERROR](FSBA.DBC:41:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "AS": syntax error)
+2017-04-18 02:26:46 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-18 02:26:46 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-18 02:26:46 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-18 02:26:46 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-18 02:26:46 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-18 02:26:46 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-18 02:26:46 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-18 02:26:46 	Class: FSBA.DBC Method : query line : 39
+2017-04-18 02:26:46 	Class: FSBA.Window Method : setComponents line : 112
+2017-04-18 02:26:46 	Class: FSBA.Window Method : <init> line : 45
+2017-04-18 02:26:46 	Class: FSBA.Main Method : main line : 23
+2017-04-18 02:26:52 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:27:08 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:27:11 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:27:11 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:27:17 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:28:44 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:28:48 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): id
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): customer_id
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): customer
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): phone
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): deliveryLocation_id
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): date
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): timeslot_id
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): lineItemSet_id
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:49:getHeader): payment_id
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): null
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): Mr Sin
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:28:48 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:32:20 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:32:24 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:75:getNextRow): Mr Leo Sin
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:32:25 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:32:30 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:51:12 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:51:16 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:51:16 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:51:25 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:51:37 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:51:40 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:51:44 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:49:getHeader): Order No.
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:49:getHeader): Customer
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:49:getHeader): Phone
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:49:getHeader): Location
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:49:getHeader): Date
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:49:getHeader): Timeslot
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): 1
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): Mr Sin
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): 2
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): 
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): Causeway Bay
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): YYYY-MM-DD HH:MM:SS.SSS
+2017-04-18 02:51:44 [Debug](FSBA.DataGrid:75:getNextRow): 9-12 AM
+2017-04-18 02:53:07 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:54:48 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:54:55 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 02:55:08 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 02:55:23 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 02:55:29 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 03:07:05 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:08:36 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:08:40 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 03:14:57 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:15:04 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 03:15:15 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:24:58 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:25:04 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 03:27:00 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:27:05 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 03:27:34 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:27:36 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:27:37 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:28:32 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:28:38 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 03:28:44 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:40:26 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:40:29 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-18 03:40:32 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:40:39 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:40:47 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-18 03:40:49 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:54:41 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:54:45 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-18 03:54:49 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:55:24 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:55:27 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-18 03:55:30 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 03:56:00 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 03:56:09 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-18 03:56:11 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:14:48 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:14:59 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:23:53 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:24:02 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:24:24 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:25:00 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:31:51 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:31:55 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 04:32:03 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:32:04 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:51:17 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:51:21 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 04:51:29 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:51:34 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:56:31 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:56:42 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:56:47 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:56:55 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 04:58:22 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 04:58:24 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-18 04:58:29 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 11:21:30 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 11:21:39 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 11:26:54 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 11:27:11 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 11:28:03 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 11:28:46 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 15:10:12 [Info](FSBA.DBC:22:<init>): DB Connected
+2017-04-18 15:10:18 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 15:11:21 [Info](FSBA.DBC:54:close): DB closed successful
+2017-04-18 16:20:02 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 16:20:32 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 16:22:06 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 16:24:55 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 16:24:59 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 16:36:10 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 17:00:41 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 17:01:35 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 17:01:59 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 17:01:59 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 17:02:06 [Info](FSBA.Window:39:<init>): Login as: Leo Sin
+2017-04-18 17:11:16 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 17:11:18 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 17:11:22 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 17:12:01 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 17:12:03 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 17:12:05 [Info](FSBA.Window:39:<init>): Login as: Leo Sin
+2017-04-18 17:27:16 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 17:27:18 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 17:30:14 [ERROR](FSBA.Window:35:<init>): Login Failed
+2017-04-18 17:30:17 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 17:30:25 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 17:30:30 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 17:30:34 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 17:30:35 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 17:30:47 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 17:42:11 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-18 17:42:12 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-18 17:42:46 [Info](FSBA.Window:39:<init>): Login as: System Administrator 
+2017-04-18 21:21:45 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 14:54:45 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 14:54:49 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 14:54:49 [ERROR](FSBA.DBC:45:query): Exception: The prepared statement has been finalized
+2017-04-19 14:54:49 	Class: org.sqlite.core.NativeDB Method : throwex line : 471
+2017-04-19 14:54:49 	Class: org.sqlite.core.NativeDB Method : step line : -2
+2017-04-19 14:54:49 	Class: org.sqlite.core.DB Method : execute line : 811
+2017-04-19 14:54:49 	Class: org.sqlite.core.CoreStatement Method : exec line : 75
+2017-04-19 14:54:49 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 83
+2017-04-19 14:54:49 	Class: FSBA.DBC Method : query line : 43
+2017-04-19 14:54:49 	Class: FSBA.Window Method : setComponents line : 177
+2017-04-19 14:54:49 	Class: FSBA.Window Method : <init> line : 47
+2017-04-19 14:54:49 	Class: FSBA.Main Method : main line : 24
+2017-04-19 14:54:56 [ERROR](FSBA.DBC:61:close): Exception: The prepared statement has been finalized
+2017-04-19 14:54:56 	Class: org.sqlite.core.NativeDB Method : throwex line : 471
+2017-04-19 14:54:56 	Class: org.sqlite.core.NativeDB Method : finalize line : -2
+2017-04-19 14:54:56 	Class: org.sqlite.core.DB Method : close line : 190
+2017-04-19 14:54:56 	Class: org.sqlite.core.CoreConnection Method : close line : 394
+2017-04-19 14:54:56 	Class: FSBA.DBC Method : close line : 57
+2017-04-19 14:54:56 	Class: FSBA.DBC$1 Method : run line : 21
+2017-04-19 14:57:19 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 14:57:23 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 14:57:46 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:00:21 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:00:23 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:01:15 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:01:21 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:01:33 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:01:36 [ERROR](FSBA.Window:37:<init>): Login Failed
+2017-04-19 15:01:39 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:05:01 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:05:05 [ERROR](FSBA.Window:37:<init>): Login Failed
+2017-04-19 15:05:06 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:05:27 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:05:30 [ERROR](FSBA.Window:37:<init>): Login Failed
+2017-04-19 15:05:31 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:07:31 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:07:31 [ERROR](FSBA.LoginDialog:78:setupComponents): Exception: Can't read input file!
+2017-04-19 15:07:31 	Class: javax.imageio.ImageIO Method : read line : 1301
+2017-04-19 15:07:31 	Class: FSBA.LoginDialog Method : setupComponents line : 73
+2017-04-19 15:07:31 	Class: FSBA.LoginDialog Method : <init> line : 45
+2017-04-19 15:07:31 	Class: FSBA.Main Method : main line : 22
+2017-04-19 15:07:35 [ERROR](FSBA.Window:37:<init>): Login Failed
+2017-04-19 15:07:36 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:07:49 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:07:50 [ERROR](FSBA.LoginDialog:78:setupComponents): Exception: Can't read input file!
+2017-04-19 15:07:50 	Class: javax.imageio.ImageIO Method : read line : 1301
+2017-04-19 15:07:50 	Class: FSBA.LoginDialog Method : setupComponents line : 73
+2017-04-19 15:07:50 	Class: FSBA.LoginDialog Method : <init> line : 45
+2017-04-19 15:07:50 	Class: FSBA.Main Method : main line : 22
+2017-04-19 15:07:52 [ERROR](FSBA.Window:37:<init>): Login Failed
+2017-04-19 15:07:57 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:10:46 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:10:50 [ERROR](FSBA.Window:37:<init>): Login Failed
+2017-04-19 15:10:55 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:14:17 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:14:19 [ERROR](FSBA.Window:37:<init>): Login Failed
+2017-04-19 15:14:23 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:16:09 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:16:13 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:16:19 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:16:23 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 15:16:36 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:16:56 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:17:00 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 15:17:00 [Debug](FSBA.DataList:52:getNextRow): Scheduled
+2017-04-19 15:17:00 [Debug](FSBA.DataList:52:getNextRow): Dispatched
+2017-04-19 15:17:00 [Debug](FSBA.DataList:52:getNextRow): Completed
+2017-04-19 15:17:00 [Debug](FSBA.DataList:52:getNextRow): Cancelled
+2017-04-19 15:18:07 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:18:10 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 15:18:10 [Debug](FSBA.DataList:31:createListModel): Scheduled
+2017-04-19 15:18:10 [Debug](FSBA.DataList:31:createListModel): Dispatched
+2017-04-19 15:18:10 [Debug](FSBA.DataList:31:createListModel): Completed
+2017-04-19 15:18:10 [Debug](FSBA.DataList:31:createListModel): Cancelled
+2017-04-19 15:18:17 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:21:20 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:38:15 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:38:20 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 15:38:32 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:38:39 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:38:43 [Info](FSBA.Window:40:<init>): Login as: System Administrator 
+2017-04-19 15:38:55 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:41:31 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:41:35 [Info](FSBA.Window:40:<init>): Login as: System Administrator 
+2017-04-19 15:41:45 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:44:59 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:45:04 [Info](FSBA.Window:40:<init>): Login as: System Administrator 
+2017-04-19 15:55:57 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:55:58 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:56:02 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 15:56:03 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:56:12 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:56:17 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 15:56:19 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:57:35 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:57:39 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 15:57:46 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:57:54 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:57:58 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 15:58:02 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 15:58:58 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 15:59:02 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 16:00:14 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:00:49 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:00:53 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 16:01:09 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:01:12 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 16:01:22 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:01:24 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:01:28 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 16:01:41 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:02:03 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:02:07 [Info](FSBA.Window:41:<init>): Login as: System Administrator 
+2017-04-19 16:03:45 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:11:43 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:11:46 [Info](FSBA.Window:43:<init>): Login as: System Administrator 
+2017-04-19 16:11:50 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:12:38 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:12:41 [Info](FSBA.Window:43:<init>): Login as: System Administrator 
+2017-04-19 16:12:54 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:13:48 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:13:52 [Info](FSBA.Window:43:<init>): Login as: System Administrator 
+2017-04-19 16:14:02 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:14:08 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:14:11 [Info](FSBA.Window:43:<init>): Login as: System Administrator 
+2017-04-19 16:14:15 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:14:19 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:14:22 [Info](FSBA.Window:43:<init>): Login as: System Administrator 
+2017-04-19 16:14:29 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:20:23 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:20:26 [Info](FSBA.Window:43:<init>): Login as: System Administrator 
+2017-04-19 16:20:30 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:20:42 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:20:46 [Info](FSBA.Window:43:<init>): Login as: System Administrator 
+2017-04-19 16:20:46 [Debug](FSBA.Window:181:setComponents): Dispatched
+2017-04-19 16:20:54 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:31:36 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:31:40 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:32:21 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:32:27 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:32:41 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:32:47 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:32:50 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:38:16 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:38:19 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:42:28 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:42:31 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:42:49 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:43:54 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:43:59 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:44:06 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:44:12 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:44:15 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:44:26 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:45:08 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:45:12 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:45:28 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:45:30 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:45:35 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:45:38 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:45:56 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:47:44 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:47:48 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:48:05 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 16:48:29 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 16:48:33 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 16:48:46 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 18:53:36 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 18:53:51 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 18:54:04 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 18:55:06 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 18:55:11 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 18:56:26 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 18:56:33 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 18:56:47 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:39:19 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:39:24 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:39:27 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 19:39:39 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:40:10 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:40:18 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 19:40:25 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:41:48 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:41:52 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 19:41:59 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:42:16 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:42:19 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 19:42:36 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:42:46 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:42:50 [Info](FSBA.Window:44:<init>): Login as: System Administrator 
+2017-04-19 19:43:02 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:49:19 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:49:22 [ERROR](FSBA.Window:43:<init>): Login Failed
+2017-04-19 19:49:24 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:50:28 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:50:31 [Info](FSBA.Window:47:<init>): Login as: System Administrator 
+2017-04-19 19:50:50 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:53:40 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:53:45 [Info](FSBA.Window:47:<init>): Login as: System Administrator 
+2017-04-19 19:53:53 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:54:00 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:54:03 [Info](FSBA.Window:47:<init>): Login as: System Administrator 
+2017-04-19 19:54:15 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:54:33 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:54:37 [Info](FSBA.Window:47:<init>): Login as: System Administrator 
+2017-04-19 19:54:59 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:55:08 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:55:11 [Info](FSBA.Window:47:<init>): Login as: System Administrator 
+2017-04-19 19:55:26 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:55:28 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:55:31 [Info](FSBA.Window:47:<init>): Login as: System Administrator 
+2017-04-19 19:55:38 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 19:56:44 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 19:56:47 [Info](FSBA.Window:47:<init>): Login as: System Administrator 
+2017-04-19 19:58:14 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 20:10:43 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 20:10:47 [Info](FSBA.Window:51:<init>): Login as: System Administrator 
+2017-04-19 20:11:02 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 20:12:32 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 20:12:36 [Info](FSBA.Window:53:<init>): Login as: System Administrator 
+2017-04-19 20:36:25 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 20:36:29 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 20:43:04 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 20:43:09 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 20:43:21 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 20:44:19 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 20:44:22 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 20:44:37 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 20:44:47 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 20:44:55 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 20:55:15 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 20:55:17 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 20:55:19 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:02:54 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:02:59 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:03:19 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:03:34 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:03:37 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:04:03 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:06:41 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:06:44 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:13:29 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:13:32 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:14:36 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:15:43 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:15:47 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:17:08 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:17:17 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:17:20 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:17:40 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:17:42 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:17:45 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:17:57 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:18:00 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:18:03 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:19:56 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:22:29 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:22:32 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:22:43 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:23:47 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:23:50 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:24:09 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:24:23 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:24:26 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:25:23 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:25:27 [Info](FSBA.Window:54:<init>): Login as: System Administrator 
+2017-04-19 21:29:46 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:29:50 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:29:58 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:30:37 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:30:43 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:30:52 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:31:22 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:31:25 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:31:43 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:31:48 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:31:51 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:32:04 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:32:48 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:32:52 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:33:00 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:33:14 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:33:17 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:33:30 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:33:39 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:33:42 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:35:36 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:35:41 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:35:56 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:35:59 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:36:01 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:36:03 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:36:05 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:37:52 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:37:56 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:38:04 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:38:30 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:38:33 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:38:40 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:38:43 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:38:47 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-19 21:38:58 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-19 21:39:01 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-19 21:39:05 [Info](FSBA.Window:55:<init>): Login as: System Administrator 
+2017-04-20 01:12:58 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 01:55:38 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 01:55:43 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:04:20 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:04:22 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:04:28 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:04:45 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:05:53 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:05:57 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:06:32 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:15:44 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:15:48 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:15:48 [ERROR](FSBA.DBC:45:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "l": syntax error)
+2017-04-20 02:15:48 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-20 02:15:48 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-20 02:15:48 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-20 02:15:48 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-20 02:15:48 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-20 02:15:48 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-20 02:15:48 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-20 02:15:48 	Class: FSBA.DBC Method : query line : 43
+2017-04-20 02:15:48 	Class: FSBA.Window Method : setupSalesOrderInfoPanel line : 260
+2017-04-20 02:15:48 	Class: FSBA.Window Method : setComponents line : 191
+2017-04-20 02:15:48 	Class: FSBA.Window Method : <init> line : 62
+2017-04-20 02:15:48 	Class: FSBA.Main Method : main line : 24
+2017-04-20 02:15:50 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:16:42 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:16:46 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:16:46 [ERROR](FSBA.DBC:45:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "l": syntax error)
+2017-04-20 02:16:46 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-20 02:16:46 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-20 02:16:46 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-20 02:16:46 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-20 02:16:46 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-20 02:16:46 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-20 02:16:46 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-20 02:16:46 	Class: FSBA.DBC Method : query line : 43
+2017-04-20 02:16:46 	Class: FSBA.Window Method : setupSalesOrderInfoPanel line : 260
+2017-04-20 02:16:46 	Class: FSBA.Window Method : setComponents line : 191
+2017-04-20 02:16:46 	Class: FSBA.Window Method : <init> line : 62
+2017-04-20 02:16:46 	Class: FSBA.Main Method : main line : 24
+2017-04-20 02:16:48 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:18:38 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:18:42 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:18:42 [ERROR](FSBA.DBC:45:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "l": syntax error)
+2017-04-20 02:18:42 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-20 02:18:42 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-20 02:18:42 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-20 02:18:42 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-20 02:18:42 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-20 02:18:42 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-20 02:18:42 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-20 02:18:42 	Class: FSBA.DBC Method : query line : 43
+2017-04-20 02:18:42 	Class: FSBA.Window Method : setupSalesOrderInfoPanel line : 260
+2017-04-20 02:18:42 	Class: FSBA.Window Method : setComponents line : 191
+2017-04-20 02:18:42 	Class: FSBA.Window Method : <init> line : 62
+2017-04-20 02:18:42 	Class: FSBA.Main Method : main line : 24
+2017-04-20 02:18:44 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:18:53 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:18:56 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:18:56 [ERROR](FSBA.DBC:45:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (near "l": syntax error)
+2017-04-20 02:18:56 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-20 02:18:56 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-20 02:18:56 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-20 02:18:56 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-20 02:18:56 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-20 02:18:56 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-20 02:18:56 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-20 02:18:56 	Class: FSBA.DBC Method : query line : 43
+2017-04-20 02:18:56 	Class: FSBA.Window Method : setupSalesOrderInfoPanel line : 260
+2017-04-20 02:18:56 	Class: FSBA.Window Method : setComponents line : 191
+2017-04-20 02:18:56 	Class: FSBA.Window Method : <init> line : 62
+2017-04-20 02:18:56 	Class: FSBA.Main Method : main line : 24
+2017-04-20 02:19:04 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:20:34 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:20:37 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:21:08 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:22:36 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:22:39 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:48:51 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:50:41 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:50:45 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:50:45 [ERROR](FSBA.DBC:45:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (no such column: l.sequenceNumber)
+2017-04-20 02:50:45 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-20 02:50:45 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-20 02:50:45 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-20 02:50:45 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-20 02:50:45 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-20 02:50:45 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-20 02:50:45 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-20 02:50:45 	Class: FSBA.DBC Method : query line : 43
+2017-04-20 02:50:45 	Class: FSBA.Window Method : setupSalesOrderInfoPanel line : 281
+2017-04-20 02:50:45 	Class: FSBA.Window Method : setComponents line : 191
+2017-04-20 02:50:45 	Class: FSBA.Window Method : <init> line : 62
+2017-04-20 02:50:45 	Class: FSBA.Main Method : main line : 24
+2017-04-20 02:50:48 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 02:52:48 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 02:52:52 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 02:54:57 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 11:52:30 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 11:52:33 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 11:55:13 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 12:05:11 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 12:05:14 [Info](FSBA.Window:56:<init>): Login as: System Administrator 
+2017-04-20 12:13:11 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 12:13:13 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 12:13:16 [Info](FSBA.Window:57:<init>): Login as: System Administrator 
+2017-04-20 12:15:08 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 12:16:53 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 12:17:00 [Info](FSBA.Window:57:<init>): Login as: System Administrator 
+2017-04-20 12:29:41 [Info](FSBA.DBC:58:close): DB closed successful
+2017-04-20 13:00:30 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 13:00:34 [Info](FSBA.Window:57:<init>): Login as: System Administrator 
+2017-04-20 13:00:34 [ERROR](FSBA.DBC:45:query): Exception: 
+[SQLITE_ERROR] SQL error or missing database (no such table: notes_print_on_orders)
+2017-04-20 13:00:34 	Class: org.sqlite.core.DB Method : newSQLException line : 909
+2017-04-20 13:00:34 	Class: org.sqlite.core.DB Method : newSQLException line : 921
+2017-04-20 13:00:34 	Class: org.sqlite.core.DB Method : throwex line : 886
+2017-04-20 13:00:34 	Class: org.sqlite.core.NativeDB Method : prepare_utf8 line : -2
+2017-04-20 13:00:34 	Class: org.sqlite.core.NativeDB Method : prepare line : 127
+2017-04-20 13:00:34 	Class: org.sqlite.core.DB Method : prepare line : 227
+2017-04-20 13:00:34 	Class: org.sqlite.jdbc3.JDBC3Statement Method : executeQuery line : 81
+2017-04-20 13:00:34 	Class: FSBA.DBC Method : query line : 43
+2017-04-20 13:00:34 	Class: FSBA.DBC Method : select line : 53
+2017-04-20 13:00:34 	Class: FSBA.Window Method : setupSalesOrderInfoPanel line : 281
+2017-04-20 13:00:34 	Class: FSBA.Window Method : setComponents line : 174
+2017-04-20 13:00:34 	Class: FSBA.Window Method : <init> line : 63
+2017-04-20 13:00:34 	Class: FSBA.Main Method : main line : 24
+2017-04-20 13:00:36 [Info](FSBA.DBC:63:close): DB closed successful
+2017-04-20 13:00:46 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 13:00:49 [Info](FSBA.Window:57:<init>): Login as: System Administrator 
+2017-04-20 13:01:02 [Info](FSBA.DBC:63:close): DB closed successful
+2017-04-20 13:01:21 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 13:01:24 [Info](FSBA.Window:57:<init>): Login as: System Administrator 
+2017-04-20 13:01:31 [Info](FSBA.DBC:63:close): DB closed successful
+2017-04-20 13:11:43 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 13:11:47 [Info](FSBA.Window:57:<init>): Login as: System Administrator 
+2017-04-20 13:11:57 [Info](FSBA.DBC:63:close): DB closed successful
+2017-04-20 14:18:58 [Info](FSBA.DBC:26:<init>): DB Connected
+2017-04-20 14:19:04 [Info](FSBA.Window:57:<init>): Login as: System Administrator 
