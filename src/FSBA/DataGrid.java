@@ -1,6 +1,7 @@
 package FSBA;
 
 import java.*;
+import java.awt.Color;
 import java.sql.*;
 import java.util.*;
 
@@ -9,6 +10,7 @@ import javax.swing.table.*;
 
 import static FSBA.Macro.*;
 
+@SuppressWarnings("serial")
 class DataGrid extends JTable {
 	/** ResultSet instance obtained from Constructor argument */
 	private ResultSet resultSet = null;
@@ -17,32 +19,41 @@ class DataGrid extends JTable {
 	/** Number of Columns in the ResultSet */
 	private int columnCount = -1;
 	/** List of Column names */
-	private Vector<String> columnNames = new Vector<String>();
+	private Vector<String> columnNames;
 	/** 2-Dimension List of Rows */
-	private Vector<Vector<Object>> rows = new Vector<Vector<Object>>();
-	
-	//TODO:
-	public DataGrid() {
-		
-	}
+	private Vector<Vector<Object>> rows;
 	
 	/**
 	 * Create table by set model from argument ResultSet _resultSet
+	 * @param _resultSet ResultSet instance
+	 * @throws SQLException handled in sub routine
+	 */
+	public DataGrid(ResultSet _resultSet) throws SQLException {
+		update(_resultSet);
+	}
+	
+	/**
+	 * Update the table model of the data grid
 	 * @param _resultSet
 	 * @throws SQLException
 	 */
-	public DataGrid(ResultSet _resultSet) throws SQLException {
+	public void update(ResultSet _resultSet) throws SQLException  {
 		resultSet = _resultSet;
+		columnNames = new Vector<String>();
+		rows = new Vector<Vector<Object>>();
 		setModel(createTableModel());
-		//setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
-
+		setGridColor(new Color(211, 211, 211));
 	}
+	
 	/**
 	 * Helper function of to create table model
 	 * @return Table model from resultSet
-	 * @throws SQLException
+	 * @throws SQLException handled in sub routine
 	 */
 	private DefaultTableModel createTableModel() throws SQLException {
+		if(resultSet == null) {
+			return new DefaultTableModel();
+		}
 		getHeader();
 		getRows();
 		
@@ -66,13 +77,12 @@ class DataGrid extends JTable {
 	
 	/**
 	 * Obtain Rows from resultSet
-	 * @throws SQLException
+	 * @throws SQLException handled in sub routine
 	 */
 	private void getRows() throws SQLException {
 		while(resultSet.next()) {
 				getNextRow();
 		}
-		
 	}
 	
 	/**

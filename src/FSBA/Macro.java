@@ -26,14 +26,14 @@ class Macro {
 	
 	/**
 	 * Log String to log file
-	 * @param str
+	 * @param str String to be logged to file
 	 */
 	private static void logToFile(String str){
-		PrintStream pw = null;
+		PrintStream ps = null;
 		try {
-			pw = new PrintStream(new FileOutputStream(getLastLogFile(), true));
-			if(pw != null) {
-				pw.println(str);
+			ps = new PrintStream(new FileOutputStream(getLastLogFile(), true));
+			if(ps != null) {
+				ps.println(str);
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace(System.err);
@@ -81,7 +81,7 @@ class Macro {
 					break;
 				}
 			}
-			fp = new File("log/FSBA" + (i > 0 ? "_"+i : "") +".log");
+			fp = new File("log/FSBA" + (i > 0 ? "_" + i : "") +".log");
 			lastLogFileIndex = i;
 			lastLogFile = fp;
 			++i;

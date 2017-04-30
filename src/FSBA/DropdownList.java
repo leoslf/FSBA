@@ -9,11 +9,12 @@ import javax.swing.table.*;
 
 import static FSBA.Macro.*;
 
+@SuppressWarnings({ "unchecked", "serial", "rawtypes" })
 class DropdownList extends JComboBox {
 	/** ResultSet instance obtained from Constructor argument */
-	private static ResultSet resultSet = null;
+	private ResultSet resultSet = null;
 	/** 2-Dimension List of Rows */
-	private static Vector<String> rows = new Vector<String>();
+	private Vector<String> rows = new Vector<String>();
 	
 	DropdownList(ResultSet _resultSet) {
 		resultSet = _resultSet;
@@ -29,7 +30,6 @@ class DropdownList extends JComboBox {
 		}
 		DefaultComboBoxModel comboBoxModel = new DefaultComboBoxModel();
 		for(String val : rows) {
-			//debug(val);
 			comboBoxModel.addElement(val);
 		}
 		return comboBoxModel;
@@ -37,9 +37,10 @@ class DropdownList extends JComboBox {
 	
 	/**
 	 * Obtain Rows from resultSet
-	 * @throws SQLException
+	 * @throws SQLException handled in subroutine 
 	 */
-	static void getRows() throws SQLException {
+	void getRows() throws SQLException {
+		rows.add("");
 		while(resultSet.next()) {
 				getNextRow();
 		}
@@ -49,11 +50,9 @@ class DropdownList extends JComboBox {
 	/**
 	 * Helper function to obtain nextRows from resultSet
 	 */
-	static void getNextRow() {
-		//rows.add("");
+	void getNextRow() {
 		try {
 			String row = resultSet.getString(1);
-			//debug(row);
 			rows.add(row);
 		} catch (SQLException e) {
 			logException(e);

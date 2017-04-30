@@ -1,28 +1,26 @@
 package FSBA;
 
+import static FSBA.Macro.*;
 import java.awt.im.*;
 import java.sql.SQLException;
 
 public class Main {
-	/** Object to store user's display name, available to be passed by reference */ 
-	private static String[] userDisplayName = new String[1];; // have to object in order to be passed by reference
-	/** Database connection */
-	private static DBC dbc;
-	
 	/**
 	 * Entry point to FSBA
-	 * @param argv
-	 * @throws SQLException
+	 * @param argv Array Vector from user input for command line
+	 * @throws SQLException throws SQLException
 	 */
-	public static void main(String[] argv) throws SQLException {
-		// init db
-		dbc = new DBC();
+	public static void main(String[] argv) throws SQLException {		
+		// variable declarations
+		/** Object to store user's display name, available to be passed by reference */ 
+		String[] user = new String[2]; // have to object in order to be passed by reference
 		
 		// create LoginDialog: modal dialog
-		LoginDialog login = new LoginDialog(dbc, userDisplayName);
+		// TEST LoginDialog login = new LoginDialog(dbc, userDisplayName);
+		LoginDialog login = new LoginDialog(user);
 		
-		Window win = new Window(dbc, userDisplayName[0]);
-		
+		//Window win = new Window(dbc, userDisplayName[0]);
+		SalesOrderUI win = new SalesOrderUI(user);
 		
 	}
 }
