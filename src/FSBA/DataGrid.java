@@ -1,6 +1,5 @@
 package FSBA;
 
-import java.*;
 import java.awt.Color;
 import java.sql.*;
 import java.util.*;
@@ -11,6 +10,11 @@ import javax.swing.table.*;
 import static FSBA.Macro.*;
 
 @SuppressWarnings("serial")
+/**
+ * Data Grid / Table Object customized to be constructed with java.sql.ResultSet
+ * @author leosin
+ *
+ */
 class DataGrid extends JTable {
 	/** ResultSet instance obtained from Constructor argument */
 	private ResultSet resultSet = null;
@@ -28,20 +32,26 @@ class DataGrid extends JTable {
 	 * @param _resultSet ResultSet instance
 	 * @throws SQLException handled in sub routine
 	 */
-	public DataGrid(ResultSet _resultSet) throws SQLException {
+	public DataGrid(ResultSet _resultSet, String tableName) throws SQLException {
+		this.setName(tableName);
 		update(_resultSet);
 	}
 	
 	/**
 	 * Update the table model of the data grid
-	 * @param _resultSet
-	 * @throws SQLException
+	 * @param _resultSet new resultSet
 	 */
-	public void update(ResultSet _resultSet) throws SQLException  {
+	public void update(ResultSet _resultSet) {
 		resultSet = _resultSet;
 		columnNames = new Vector<String>();
 		rows = new Vector<Vector<Object>>();
-		setModel(createTableModel());
+		try {
+			// set the table model
+			setModel(createTableModel());
+		} catch (SQLException e) {
+			logException(e);
+		}
+		// set grid border color as grey: rgb(211,211,211)
 		setGridColor(new Color(211, 211, 211));
 	}
 	
@@ -64,10 +74,12 @@ class DataGrid extends JTable {
 	 */
 	private void getHeader() {
 		try {
+			// get metadata from ResultSet
 			metaData = resultSet.getMetaData();
+			// get column count from ResultSetMetaData from ResultSet
 			columnCount = metaData.getColumnCount();
+			
 			for(int i = 1; i <= columnCount; ++i) {
-				// debug(metaData.getColumnName(i));
 				columnNames.add(metaData.getColumnName(i));
 			}
 		} catch (SQLException e) {
@@ -92,7 +104,6 @@ class DataGrid extends JTable {
 		Vector<Object> row = new Vector<Object>();
 		try {
 			for(int i = 1; i <= columnCount; ++i) {
-				//debug(""+resultSet.getObject(i));
 				row.add(resultSet.getObject(i));
 			}
 			rows.add(row);

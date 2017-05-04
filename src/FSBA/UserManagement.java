@@ -4,6 +4,11 @@ import static FSBA.Macro.*;
 import FSBA.DBC;
 import java.sql.*;
 
+/**
+ * Utilities for user management
+ * @author leosin
+ *
+ */
 class UserManagement {
 	/** Database connection instance */
 	private DBC dbc;
@@ -15,14 +20,6 @@ class UserManagement {
 		dbc = new DBC();
 	}
 	
-	/**
-	 * initialize with database information
-	 * @param argv
-	 */
-	public UserManagement(String ... argv) {
-		//TODO: handle argv
-		dbc = new DBC();
-	}
 	
 	/**
 	 * initialize with database connection setup
@@ -59,9 +56,21 @@ class UserManagement {
 	}
 	
 	/**
+	 * Update records in database
+	 * @param id Row id in table
+	 * @param column displayed column
+	 * @param newValue new value of the element
+	 * @return ...//TODO:
+	 */
+	public void update(int id, int column, Object newValue) { //TODO: return type		
+		//return dbc.update();
+	}
+	
+	/**
 	 * Login check query to database
 	 * @param user username input
 	 * @param pw password input
+	 * @param userArr user info
 	 * @return whether both username and password matches a distinct account in database
 	 */
 	public boolean checkLogin(String user, String pw, String[] userArr) {
@@ -94,18 +103,5 @@ class UserManagement {
 		// debug("checkLogin End: "+ retVal);
     	return retVal;
     }
-	
-	/**
-	 * Update records in database
-	 * @param id Row id in table
-	 * @param column displayed column
-	 * @param newValue new value of the element
-	 * @return ...//TODO:
-	 */
-	public boolean update(int id, int column, Object newValue) { //TODO: return type
-		//TODO: lookup which table is column from
-		
-		return dbc.update();
-	}
-	
 }
+	

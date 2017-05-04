@@ -6,17 +6,19 @@ import static FSBA.Macro.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
-import java.util.*;
 import javax.imageio.*;
-
 import javax.swing.*;
-import static FSBA.Macro.*;
 
+/**
+ * Customized modal javax.swing.JDialog for login purpose with database record login checking 
+ * @author leosin
+ *
+ */
 class LoginDialog extends JDialog {
 	/** UserManagement */
 	private UserManagement userMgmt;
-	/** Login User's display name: [First Name] [Last Name] */
-	private String[] userDisplayName;
+	/** Login User's display name: [First Name] [Last Name] and ID */
+	private String[] userArr;
 	
 	/** Background image of LoginDialog */
 	private final String backgroundImg = "/resources/LoginBackground.jpg";
@@ -31,15 +33,14 @@ class LoginDialog extends JDialog {
 		
 	/**
 	 * Create instance of LoginDialog  
-	 * @param dbc database connection
-	 * @param userDisplayName user's display name
+	 * @param userArr user's display name
 	 */
-	public LoginDialog(String[] userDisplayName) {
+	public LoginDialog(String[] userArr) {
 
 		setResizable(false);
 
 		userMgmt = new UserManagement();
-		this.userDisplayName = userDisplayName;
+		this.userArr = userArr;
 		setModalityType(Dialog.ModalityType.APPLICATION_MODAL);
 		setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 
@@ -103,7 +104,7 @@ class LoginDialog extends JDialog {
 				String user = new String(usernameField.getText());
 				String pw = new String(passwordField.getPassword());
 				
-				if(userMgmt.checkLogin(user, pw,userDisplayName)) {
+				if(userMgmt.checkLogin(user, pw,userArr)) {
 					close();
 				} else {
 					// Invalid username or password

@@ -1,27 +1,38 @@
 package FSBA;
 
-import java.*;
 import java.sql.*;
 import java.util.*;
 
 import javax.swing.*;
-import javax.swing.table.*;
 
 import static FSBA.Macro.*;
 
 @SuppressWarnings({ "unchecked", "serial", "rawtypes" })
+/**
+ * Dropdown List / combobox customized to be constructed with java.sql.ResultSet
+ * @author leosin
+ *
+ */
 class DropdownList extends JComboBox {
 	/** ResultSet instance obtained from Constructor argument */
 	private ResultSet resultSet = null;
 	/** 2-Dimension List of Rows */
 	private Vector<String> rows = new Vector<String>();
 	
+	/**
+	 * Initialze Dropdown list /combobox
+	 * @param _resultSet content in ResultSet
+	 */
 	DropdownList(ResultSet _resultSet) {
 		resultSet = _resultSet;
 
 		setModel(createListModel());
 	}
 	
+	/**
+	 * create list model 
+	 * @return combobox model
+	 */
 	private DefaultComboBoxModel createListModel() {
 		try {
 			getRows();

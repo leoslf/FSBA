@@ -7,6 +7,11 @@ import javax.swing.table.*;
 
 import static FSBA.Macro.*;
 
+/**
+ * To store order component in format
+ * @author leosin
+ *
+ */
 public class OrderComponent {
 	/** Column names of the order component */
 	private Vector<String> columns;
@@ -52,8 +57,9 @@ public class OrderComponent {
 	
 	/**
 	 * Accessor of table data
-	 * @param table
-	 * @return 2-dimensional Object array of table data
+	 * @param table on database
+	 * @param dim row, column
+	 * @return 2-DIMENSIONAL STRING ARRAY OF TABLE DATA
 	 */
 	private String[][] getTableData (JTable table,int[] dim) {
 	    DefaultTableModel model = (DefaultTableModel) table.getModel();
@@ -92,14 +98,24 @@ public class OrderComponent {
 	}
 	
 	/**
+	 * *
 	 * Accessor of row values in the format SQL accepts
+	 * @param index index of vector
 	 * @return String of values: value1, value2, ..., valueN
 	 */
 	public String getValuesArr(int index) {
 		String[] valStrArr = valuesArr.get(index).toArray(new String[valuesArr.get(index).size()]);
+		for(int i = 0; i < valStrArr.length; ++i) {
+			valStrArr[i] = "\"" + valStrArr[i] + "\"";
+		}
 		logInfo("index:"+ index + " " + String.join(", ", valStrArr));
 		return ""+String.join(", ", valStrArr);
 	}
+	
+	/**
+	 * accessor of length of valuesArr 
+	 * @return length of valuesArr
+	 */
 	public int getValuesArrLength() {
 		return valuesArr.size();
 	}

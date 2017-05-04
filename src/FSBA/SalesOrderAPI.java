@@ -1,37 +1,41 @@
 package FSBA;
 import static FSBA.Macro.*;
 import FSBA.DBC;
+import FSBA.Macro.dateMode;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintStream;
 import java.sql.*;
-import java.util.*;
+import java.util.Vector;
 
-enum Accesses {
-	order,
-	lineItems,
-	notes,
-	orderStatus,
-	printStatus,
-	auditTrail,
-	apptTimeID,
-	location,
-	datetime,
-	BIdump,
-}
-
-enum ClosingMode {
-	daily,
-	monthly,
-	annual
-}
-
+/**
+ * API for Sales Order Management
+ * @author leosin
+ *
+ */
 public class SalesOrderAPI {
 	/** Database connection instance */
 	private DBC dbc;
+	/** mode enumerations for Query access */
+	enum Accesses {
+		order,
+		lineItems,
+		notes,
+		orderStatus,
+		auditTrail,
+		apptTimeID,
+		location,
+		datetime,
+		BIdump,
+		closing
+	}
+
+	/** mode enumerations for closing */
+	enum ClosingMode {
+		daily,
+		monthly,
+		annual,
+		others
+	}
+	
 	
 	/**
 	 * Default constructor
@@ -42,34 +46,31 @@ public class SalesOrderAPI {
 	
 	/**
 	 * initialize with database information
-	 * @param argv
-	 */
+	 * @param argv argument handler
+ 	 */
 	public SalesOrderAPI(String ... argv) {
-		//TODO: handle argv
 		dbc = new DBC();
 	}
 	
 	/**
 	 * initialize with database connection setup
-	 * @param dbc
+	 * @param dbc database connection to be move" 
 	 */
 	public SalesOrderAPI(DBC dbc) {
 		this.dbc = dbc;
 	}
 	
-	
 	static final String[][][] notes = 
 		{
 				{
+					{ "sequenceNumber", "Sequence No.", },
 					{ "standardCode_id", "Standardized Code", },
 					{ "remarks","Remarks", },
 				},
 				{
 					{ "notes", "n", },
 				},
-				{
-					
-				}
+				{}
 		};
 	
 	static final String[][][] lineItemSets = 
@@ -84,9 +85,7 @@ public class SalesOrderAPI {
 			{
 				{ "lineItemSets", "l",}
 			},
-			{
-
-			}
+			{}
 		};
 	
 	static final String[][][] dateTime = 
@@ -101,14 +100,14 @@ public class SalesOrderAPI {
 			},
 			{
 				{ "timeslots", "t",
-					"t.id", "q.id" },
+					"t.id", "q.timeslot_id" },
 			}
 		};
 	
 	static final String[][][] orderList = 
 		{
 			{				
-				{ "s.id", "Order No.", },
+				{ "substr('00000'|| s.id ,-5,5)", "Order No.", },
 				{ "o.status", "Status",},
 				{ "s.customer", "Customer", },
 				{ "s.phone", "Phone", },
@@ -130,31 +129,113 @@ public class SalesOrderAPI {
 				  "t.id","s.timeslot_id" },
 			}
 		};
+	static final String[][][] auditTrail = {
+			{
+				{ "a.timestamp ", "Timestamp", },
+				{ "(s.firstName || \" \" || s.lastName) ", "Staff", },
+				{ "a.oldValue ", "Old value", },
+				{ "a.newValue ", "New value", },
+			},
+			{
+				{ "auditTrail", "a", },
+			},
+			{
+				{ "staff ", "s", 
+					"s.id", "a.staff_id", },
+			}
+	};
+	static final String[][][] BIdump = {
+			{
+				{"l.id",  },
+				{"l.sequenceNumber",  },
+				{"l.product_id",  },
+				{"l.qty",  },
+				{"l.product",  },
+				{"l.price",  },
+				{"l.sales_id",  },
+				{"s.printStatus_id",  },
+				{"s.status_id",  },
+				{"s.customer",  },
+				{"s.phone",  },
+				{"s.deliveryLocation_id",  },
+				{"s.date",  },
+				{"s.date_created",  },
+				{"s.last_updated",  },
+				{"s.timeslot_id",  },
+			},
+			{
+				{ "lineItemSets",  "l", },
+			},
+			{
+				{ "sales ",  "s", 
+					"l.sales_id",  "s.id",  },
+			}
+	};
+	static final String[][][] closing = {
+			{
+				{"s.date", "Date" },
+				{"l.sales_id", "Order No." },
+				{"l.sequenceNumber", "Seq. No."  },
+				{"l.product_id", "Product id" },
+				{"l.product", "Product" },
+				{"l.qty", "Qty" },
+				{"l.price", "Price($)" },
+				{"d.location", "Location" },
+				{"t.timeslot", "Timeslot" },
+			},
+			{
+				{ "lineItemSets",  "l", },
+			},
+			{
+				{ "sales ",  "s", 
+					"l.sales_id",  "s.id",  },
+				{ "deliveryLocations", "d",
+					"d.id", "s.deliveryLocation_id" },
+				{ "timeslots", "t",
+					"t.id", "s.timeslot_id" }
+			}
+	};
 	
+	/**
+	 * Helper function for compose or formatting SQL statement from 3-dimensional String array
+	 * <p>
+	 * Return format: 	{
+	 * 		"column1 [AS \"alias\"], ..., columnN [AS \"alias\"]",
+	 * 		"table_name [AS \"alias\"]",
+	 * 		"[LEFT JOIN table2 AS \"alias\"] ..."
+	 * }
+	 * </p>
+	 * @param arr 3D String array
+	 * @return one-dimensional array of String: { columns, table, conditions (e.g. JOIN ) }
+	 */
 	private String[] compose(String[][][] arr) {
 		String column = "";
 		String table = "";
 		String conditionPresets = "";
+		
+		// compose columns
 		for(int i = 0; i < arr[0].length; ++i) {
-			column += arr[0][i][0] + " AS \"" + arr[0][i][1] + "\"";
+			column += arr[0][i][0] + (arr[0][i].length == 2 ? " AS \"" + arr[0][i][1] + "\"" : "");
 			column += (i == arr[0].length - 1)? " " : ", ";
 		}
 		
-		table = arr[1][0][0] + " AS \"" + arr[1][0][1] + "\" ";
+		// compose FROM ...
+		table = arr[1][0][0] + (arr[1][0].length == 2 ? " AS \"" + arr[1][0][1] + "\"" : "");
 		
+		// compose conditions
 		for(String[] subArr: arr[2]) {
 			conditionPresets += "LEFT JOIN " + subArr[0] + " AS " + subArr[1] + " ";
 			conditionPresets += "ON " + subArr[2] + " = " + subArr[3] + " ";
 		}
 		String[] retVal = {column, table, conditionPresets};
-		/*for(String elem: retVal) {
-			logInfo(elem);
-		}*/
+		
 		return retVal;
 	}
 	
-	/** 
+	/**
+	 * ** 
 	 * Parameterized Query/Search
+	 * @param mode see Accesses modes
 	 * @param conditions to be searched
 	 * @return the result set of query
 	 */
@@ -162,58 +243,24 @@ public class SalesOrderAPI {
 		String conditionformatted =  (conditions != null && conditions.length > 0 && conditions[0].length() > 0? " WHERE "+conditions[0] : "");
 		String[] components = null;
 		switch(mode) {
-			case order:
-				components = compose(orderList);
-				break;
-			case lineItems:
-				components = compose(lineItemSets);
-				break;
-			case notes:
-				components = compose(notes);
-				break;
-			case orderStatus:
+			case order:			components = compose(orderList);	break;
+			case lineItems:		components = compose(lineItemSets);	break;
+			case notes:			components = compose(notes);		break;
+			case orderStatus:	
 				return dbc.select("status", "orderStatuses", conditionformatted);
-			case printStatus:
-				return dbc.select("status",	"printStatuses" + conditionformatted);
-			case auditTrail:
-				return dbc.select(""
-						+ "a.timestamp AS \"Timestamp\", "
-					   + "(s.firstName || \" \" || s.lastName) AS \"Staff\", "
-						+ "a.oldValue AS \"Old value\", "
-						+ "a.newValue AS \"New value\" ", 
-					"auditTrail AS a",
-					"LEFT JOIN staff AS s " //CONDITIONS
-						+ "ON s.id = a.staff_id"
-					+ conditionformatted
-							);
+				
+			case auditTrail:	components = compose(auditTrail);	break;
+				
 			case apptTimeID:
 				return dbc.select("id",	"timeslots", conditionformatted);
+				
 			case location:
 				return dbc.select("location", "deliveryLocations", conditionformatted);
-			case datetime:
-				components = compose(dateTime);
-				break;
-			case BIdump:
-				return dbc.select(""
-						+ "l.id,"
-						+ "l.sequenceNumber,"
-						+ "l.product_id,"
-						+ "l.qty,"
-						+ "l.product,"
-						+ "l.price,"
-						+ "l.sales_id,"
-						+ "s.printStatus_id,"
-						+ "s.status_id,"
-						+ "s.customer,"
-						+ "s.phone,"
-						+ "s.deliveryLocation_id,"
-						+ "s.date,"
-						+ "s.date_created,"
-						+ "s.last_updated,"
-						+ "s.timeslot_id,"
-						+ "s.price",
-						"lineItemSets AS l", 
-						"LEFT JOIN sales AS s ON l.sales_id = s.id");
+				
+			case datetime:		components = compose(dateTime);		break;
+			case BIdump:		components = compose(BIdump);		break;
+			case closing: 		components = compose(closing);		break;
+				
 			default:
 				logErr("Invalid Enumeration: Accesses");
 				return null;
@@ -221,6 +268,12 @@ public class SalesOrderAPI {
 		return dbc.select(components[0], components[1], components[2] + conditionformatted);
 	}
 	
+	/**
+	 * Query key / ID of given value of given table
+	 * @param mode mode to use
+	 * @param timeslot timeslot value
+	 * @return the required id 
+	 */
 	public int queryID(String mode, String timeslot) {
 		ResultSet rs = query(Accesses.apptTimeID, mode + "=\"" + timeslot+"\"");
 		int retVal = -1;
@@ -234,85 +287,15 @@ public class SalesOrderAPI {
 		return retVal;
 	}
 	
-	class ResultSetProcessing {
-		private ResultSet resultSet;
-		private ResultSetMetaData metaData;
-		private int columnCount = -1;
-		private Vector<String> columnNames = new Vector<String>();
-		private Vector<Vector<String>> rows = new Vector<Vector<String>>();
-		public ResultSetProcessing(ResultSet rs) {
-			resultSet = rs;
-			getHeader();
-			getRows();
-		}
-		/**
-		 * Obtain header of the resultSet
-		 */
-		void getHeader() {
-			try {
-				metaData = resultSet.getMetaData();
-				columnCount = metaData.getColumnCount();
-				for(int i = 1; i <= columnCount; ++i) {
-					// debug(metaData.getColumnName(i));
-					columnNames.add(metaData.getColumnName(i));
-				}
-			} catch (SQLException e) {
-				logException(e);
-			}
-		}
-		
-		/**
-		 * Obtain Rows from resultSet
-		 * @throws SQLException handled in sub routine
-		 */
-		void getRows() {
-			try {
-			while(resultSet.next()) {
-					getNextRow();
-			}
-			} catch (SQLException e) {
-				logException(e);
-			}
-		}
-		
-		/**
-		 * Helper function to obtain nextRows from resultSet
-		 */
-		void getNextRow() {
-			Vector<String> row = new Vector<String>();
-			try {
-				for(int i = 1; i <= columnCount; ++i) {
-					//debug(""+resultSet.getObject(i));
-					String str = resultSet.getString(i);
-					row.add(str);
-				}
-				rows.add(row);
-			} catch (SQLException e) {
-				logException(e);
-			}
-		}
-		
-		public String[][] getStrArrRows() {
-			String[][] ret = new String[rows.size()][columnNames.size()];
-			for(int i = 0; i < rows.size(); ++i) {
-				Vector<String> cols = rows.get(i);
-				for(int j = 0; j < cols.size(); ++j) {
-					ret[i][j] = cols.get(j);
-				}
-			}
-			return ret;
-		}
-		
-		public String[] getStrArrColumnNames() {
-			return columnNames.toArray(new String[columnNames.size()]);
-		}
-	}
 	
+	/**
+	 * export data for business intelligence analysis 
+	 */
 	public void BIDataDump() {
-		ResultSetProcessing rsp = new ResultSetProcessing(query(Accesses.BIdump));
-		String[] colNames = rsp.getStrArrColumnNames();
-		String[][] rows = rsp.getStrArrRows();
-		dataWriter dw = new dataWriter();
+		ResultSetUtil rsUtil = new ResultSetUtil(query(Accesses.BIdump));
+		String[] colNames = rsUtil.getStrArrColumnNames();
+		String[][] rows = rsUtil.getStrArrRows();
+		dataWriter dw = new dataWriter(new String[] {"BI","data","csv"});
 		
 		String str = String.join(",", colNames) + "\r\n";
 		for(int i = 0; i < rows.length; ++i) {
@@ -321,76 +304,7 @@ public class SalesOrderAPI {
 		dw.writeToFile(str);
 		
 	}
-	class dataWriter {
-		private File lastFile = null;
-		/** Index for previous file */
-		private int lastFileIndex = 0;
-		private PrintStream ps = null;
-		dataWriter() {
-			
-		}
-		
-		/**
-		 * Log String to log file
-		 * @param str String to be logged to file
-		 */
-		public void writeToFile(String str){
-			
-			try {
-				if(ps == null) {
-					ps = new PrintStream(new FileOutputStream(getLastFile(),false));
-				}
-				if(ps != null) {
-					ps.println(str);
-				}
-			} catch (FileNotFoundException e) {
-				e.printStackTrace(System.err);
-			} catch (NullPointerException e ) {
-				e.printStackTrace(System.err);
-			}
-		}
-		
-		private File getLastFile() {
-			File fp = lastFile;
-			int i = lastFileIndex;
-			
-			File logDir = new File("BI");
-			if(!logDir.exists()) {
-				try {
-					logDir.mkdir();
-					logDir.setWritable(true, false);
-				} catch (SecurityException e) {
-					e.printStackTrace(System.err);
-				}
-			}
-			
-			while(i < 256) {
-				if(fp != null) {
-					if(fp.exists()) {
-						if(fp.length() < 100L *(1 << 10)) {
-							break;
-						} else {
-							++i;
-							continue;
-						}
-					} else {
-						try {
-							fp.createNewFile();
-							fp.setWritable(true, false);
-						} catch (IOException e) {
-							e.printStackTrace();
-						}
-						break;
-					}
-				}
-				fp = new File("BI/data" + (i > 0 ? "_" + i : "") +".csv");
-				lastFileIndex = i;
-				lastFile = fp;
-				++i;
-			}
-			return fp;
-		}
-	}
+	
 	
 	
 	/**
@@ -402,7 +316,7 @@ public class SalesOrderAPI {
 	 */
 	public int[][] insertOrder(OrderComponent order, OrderComponent lineItems, OrderComponent notes) {
 		int orderNumber = dbc.insert("sales", order.getColumns(), order.getValues());
-		int[][] ids = {new int[1], new int[lineItems.getValuesArrLength()],  new int[notes.getValuesArrLength()]};
+		int[][] ids = {new int[]{orderNumber}, new int[lineItems.getValuesArrLength()],  new int[notes.getValuesArrLength()]};
 		OrderComponent[] components = {lineItems, notes};
 		String[] tableName = { "lineItemSets", "notes" };
 		for(int comp = 0; comp < components.length; ++comp) {
@@ -416,33 +330,135 @@ public class SalesOrderAPI {
 	
 	/**
 	 * Update records in database
-	 * @param id Row id in table
+	 * @param table
+	 * @param orderNo
+	 * @param row Row id in table
 	 * @param column displayed column
 	 * @param newValue new value of the element
-	 * @return
 	 */
-	public boolean update(int id, int column, Object newValue) {
-		//TODO: lookup which table is column from
-		return dbc.update();
+	public void update(String table, int orderNo, int row, int column, Object newValue) {
+		String[][][] schema = null;
+		if(table=="lineItemSets") {
+			schema = lineItemSets;
+		} else if(table=="notes") {
+			schema = notes;
+		} else {
+			logWarn("invalid table");
+			return;
+		}
+		dbc.update(table, schema[0][column][0] + "="+newValue.toString(), "sales_id="+orderNo + " AND sequenceNumber="+(row+1));
+	}
+	
+	/**
+	 * Update records in database
+	 * @param table table name
+	 * @param orderNo order number 
+	 * @param colnVal formatted columns and values to be set in update statement
+	 * @param newValue new value of the element
+	 */
+	public void update(String table, int orderNo, String colnVal, Object newValue) {
+		dbc.update(table, colnVal, "id="+orderNo);
+	}
+	
+	/**
+	 * Commit change
+	 */
+	public void commit() {
+		dbc.commitUpdate();
 	}
 	
 	/**
 	 * Perform time-period specified retail closing
+	 * Assume Financial year starts from 1st January
 	 * Output closing document file to filesystem
 	 * @param mode enumeration of time-period as defined
 	 */
 	public void closing(ClosingMode mode) {
-		// TODO: create closing document for specified period from mode
-
-		switch(mode) {
-		case daily: 
-			break;
-		case monthly: 
-			break;
-		case annual: 
-			break;
-		}
 		
+		int modeIndex = mode.ordinal();
+		dataWriter dw = new dataWriter(new String[] {"closing", ClosingMode.values()[modeIndex].toString(), "txt"}, false, false);
+		String[][] closingConditions = {
+				{ "'now'","'now'" },
+				{ datePart(dateMode.d, -1), datePart(dateMode.d)},
+				{ datePart(dateMode.m, -1), datePart(dateMode.m)},
+				{ datePart(dateMode.y, -1), datePart(dateMode.y)}
+		};
+		String condition = "s.date BETWEEN \"" + closingConditions[modeIndex][0] + "\" AND \"" + closingConditions[modeIndex][1] + "\"";
+		
+		ResultSetUtil rsutil = new ResultSetUtil(query(Accesses.closing, condition));
+		
+		Vector<String> columnNames = rsutil.getVectorColumnNames();
+		Vector<Vector<String>> rows = rsutil.getVectorRows();
+		
+		
+		
+		rows.add(0,columnNames);
+		int[] maxW = TableBuilder.maxWidths(rows);
+		rows.remove(0);
+		
+		Vector<String> hyphen = new Vector<String>();
+		for(int i = 0; i < maxW.length; ++i) {
+			hyphen.add(new String(new char[maxW[i]]).replace("\0", "-"));
+		}
+		String[] format = { TableBuilder.format(maxW, "+"), TableBuilder.format(maxW, "|")};
+		format[0] = String.format(format[0], hyphen.toArray());
+		String column = String.format(format[1], columnNames.toArray());
+		
+		final Vector<String> dataRows = new Vector<String>();
+		rows.forEach((Vector<String> row) -> dataRows.add(String.format(format[1], row.toArray())));
+		
+		dw.writeToFile(format[0]);
+		dw.writeToFile(column);
+		dw.writeToFile(format[0]);
+		dataRows.forEach((String row) -> dw.writeToFile(row));
+		dw.writeToFile(format[0]);
+
 	}
 	
+	static class TableBuilder {
+		static String format(int[] len, String c) {
+			final StringBuilder formatting = new StringBuilder(c);
+			for(int i : len) {
+				formatting.append(" %-" + i + "s "+ c);
+			}
+			
+			return formatting.toString();
+		}
+		
+		static int[][] lengthArr(Vector<Vector<String>> rows) {
+			int[][] temp = new int[rows.size()][rows.get(0).size()];
+			for(int i = 0; i < rows.size(); ++i) {
+				for(int j = 0; j < rows.get(0).size(); ++j) {
+					temp[i][j] = rows.get(i).get(j).length();
+				}
+			}
+			return temp;
+		}
+		static int[][] transpose(Vector<Vector<String>> rows) {
+			int[][] r = lengthArr(rows);
+			int[][] temp = new int[r[0].length][r.length];
+			for(int i = 0; i < r[0].length; ++i) {
+				for(int j = 0; j < r.length; ++j) {
+					temp[i][j] = r[j][i];
+				}
+			}
+			return temp;
+		}
+
+		static int[] maxWidths(Vector<Vector<String>> rows) {
+			int[][] r = transpose(rows);
+			int[] retVal = new int[r.length];
+			for(int i = 0; i < r.length; ++i) {
+				int max = 0;
+				for(int elem : r[i]) {
+					if(max < elem) {
+						max = elem;
+					}
+				}
+				retVal[i] = max;
+			}
+			
+			return retVal;
+		}
+	}
 }

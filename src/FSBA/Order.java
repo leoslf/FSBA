@@ -1,5 +1,10 @@
 package FSBA;
 
+/**
+ * Order object
+ * @author leosin
+ *
+ */
 public class Order {
 	/** The order number */
 	private int orderNo = -1;

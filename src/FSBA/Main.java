@@ -1,16 +1,17 @@
 package FSBA;
 
-import static FSBA.Macro.*;
-import java.awt.im.*;
-import java.sql.SQLException;
-
+/**
+ * Entry point of the system
+ * @author leosin
+ *
+ */
 public class Main {
 	/**
 	 * Entry point to FSBA
 	 * @param argv Array Vector from user input for command line
-	 * @throws SQLException throws SQLException
 	 */
-	public static void main(String[] argv) throws SQLException {		
+	@SuppressWarnings("unused")
+	public static void main(String[] argv) {		
 		// variable declarations
 		/** Object to store user's display name, available to be passed by reference */ 
 		String[] user = new String[2]; // have to object in order to be passed by reference

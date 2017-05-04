@@ -4,6 +4,11 @@ import java.io.*;
 import java.text.*;
 import java.util.*;
 
+/**
+ * Macros or pseudo-global variables and functions with logging 
+ * @author leosin
+ *
+ */
 class Macro {
 	/** Application Name */
 	static final String APPNAME = "FSBA";
@@ -105,10 +110,30 @@ class Macro {
 	
 	/**
 	 * Return current timestamp formatted as ISO 8601 standard date
+	 * @param argv va_list of boolean
 	 * @return String of current timestamp
 	 */
-	private static String timestamp() {
-		return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+	static String timestamp(boolean ...argv) {
+		boolean time = true;
+		if (argv != null && argv.length > 0) {
+			time = !argv[0];
+		}
+		return new SimpleDateFormat("yyyy-MM-dd" + (time ? " HH:mm:ss" : "")).format(new Date());
+	}
+	
+	static class dateMode {
+		public static final Object[] d =  { Calendar.DAY_OF_MONTH, "dd"};
+		public static final Object[] m =  { Calendar.MONTH,"MM" };
+		public static final Object[] y =  { Calendar.YEAR, "YYYY" };
+	}
+	
+	static String datePart(Object[] mode, Integer ... argv) {
+		Calendar c = Calendar.getInstance();
+		c.setTime(new Date());
+		if(check_argv(argv,1)) {
+			c.add((int)mode[0], argv[0]);
+		}
+		return new SimpleDateFormat("yyyy-MM-dd").format(c.getTime());
 	}
 	
 	/**
@@ -166,5 +191,23 @@ class Macro {
 			logStr("\t"+"Class: " + st.getClassName() + " Method : " 
 					+  st.getMethodName() + " line : " + st.getLineNumber());
 		}
+	}
+	
+	/**
+	 * checker for variable argument lists
+	 * @param argv argument vector
+	 * @param length expected length
+	 * @return whether it is valid
+	 */
+	static boolean check_argv(Object[] argv, int length) {
+		boolean retVal = true;
+		retVal &= (argv.length > 0 && argv.length <= length);
+		for(int i = 0; i < Math.min(length,argv.length); ++i) {
+			retVal &= (argv[i] != null);
+			if(argv[i] instanceof String) {
+				retVal &= !((String)argv[i]).isEmpty();
+			}
+		}
+		return retVal;
 	}
 }
